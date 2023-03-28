@@ -1,5 +1,6 @@
 package com.example.midterm_2.api
 
+import com.example.midterm_2.model.Users
 import retrofit2.Response
 import retrofit2.http.GET
 

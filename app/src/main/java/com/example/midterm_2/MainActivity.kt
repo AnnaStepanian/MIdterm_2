@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             UsersViewModel::class.java
         )
         usersViewModel.users.observe(this) {
-            Log.d("", "onCreate: ${it.toString()}")
+            Log.d("MainActivity", "onCreate: ${it.toString()}")
         }
     }
 }
